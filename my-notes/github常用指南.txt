@@ -1,5 +1,59 @@
+shortest way to learn github
+
+famous book: https://git-scm.com/book/en/v2
+
+try verify in linkedin
+
+write a book about how to use github
+
+basic git workflow
+1.modify files in my working tree.
+2.selectively stage the file using git add
+3.do a commit, take the staged files into Git directory
+
+https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+Figure 6. Working tree, staging area, and Git directory
+This figure perfectly shows the replationshiop with them
+
+Three status:
+committed:If a particular version of a file is in the Git directory
+staged: If it has been modified and was added to the staging area
+modified:And if it was changed since it was checked out but has not been staged(here means the file been added)
+########################################################################################################################
+basic:How to use git 
+useful tricks in git
+
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+1.intall git
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+2.set your identity
+
+3.get a git repository
+3.1.You can take a local directory that is currently not under version control, and turn it into a Git repository
+3.2.You can clone an existing Git repository from elsewhere.(from remote)
+retult:you end up with a Git repository on your local machine, ready for work.
+
+Initializing a Repository in an Existing Directory:
 如果想用git管理本地文件需要在相应文件夹(根文件夹)，单击右键，选择“Open Git Bash here”
-git init
+$ git init
+now you don't have anything under git control
+you just choose the exisiting directory
+git don't know under this directory what file you want to control
+
+4.
+
+$ git add filename
+$ git commit -m 'Initial project version'
+
+Cloning an Existing Repository:
+$ git clone https://github.com/libgit2/libgit2 mylibgit
+mylibgit is the directory name you want to create
+here you need to careful about where your command line is, cuz that's the location where clone to
+url can be found here need picture to show...
+
+
 
 git add (file)
 在没有执行这项命令前，git没有管理任何在根目录下的文件
