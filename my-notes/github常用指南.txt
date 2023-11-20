@@ -32,10 +32,11 @@ git checkout master
 他们会变得不同，所以在你使用电脑工作时，记得switch到你想要运行的branch里。
 
 git add .
-把未管理文件让git管理
+把未管理文件/已更新的最新版 让git管理
 
-git commit -m 'my study result'
+git commit -am 'my study result'
 commit之后会更新到git里面
+-a 是add的意思这样git add就无需执行
 -m 是message
 
 git push
