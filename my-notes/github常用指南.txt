@@ -1,0 +1,32 @@
+如果想用git管理本地文件需要在相应文件夹(根文件夹)，单击右键，选择“Open Git Bash here”
+git init
+
+git add (file)
+在没有执行这项命令前，git没有管理任何在根目录下的文件
+这项命令是把你需要git管理的文件加入
+
+git status -s
+简短的形式查看根目录所有文件的形式
+??是不在管理的文件
+
+git remote -v
+查看upstram是什么
+
+git remote add upstream https://github.com/selfteaching/the-craft-of-selfteaching.git
+添加upstream
+
+git branch
+查看对应根目录下有多少个branch
+我这里有
+  master
+* study
+
+git branch study
+创建一个名为study的branch
+
+git checkout master
+把工作目录切换到master这个branch。
+注意：
+在最开始的时候master和study这两个branch里面的内容是完全一致的。
+但随着你不断的更改这两个branch的内容。
+他们会变得不同，所以在你使用电脑工作时，记得switch到你想要运行的branch里。
