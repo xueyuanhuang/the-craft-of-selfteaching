@@ -42,7 +42,32 @@ now you don't have anything under git control
 you just choose the exisiting directory
 git don't know under this directory what file you want to control
 
+tracked files and untracked files
+https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
+Figure 8. The lifecycle of the status of your files
+perfectly describe the status of all your files
 4.
+$ git status
+check status of your files 
+tells you which brand you're on
+$ git status -s
+short version of git status
+
+tracking new files
+$ git add README
+
+staging modified files
+Changes not staged for commit:a file that is tracked has been modified in the working directory but not yet staged
+
+$ git add:tracking new files, to stage files
+
+??:new files that aren’t tracked
+A :new files that have been added to the staging area
+M :modified files,already been added
+two columns to the output
+the left-hand column indicates the status of the staging area
+the right-hand column indicates the status of the working tree
+
 
 $ git add filename
 $ git commit -m 'Initial project version'
@@ -52,6 +77,7 @@ $ git clone https://github.com/libgit2/libgit2 mylibgit
 mylibgit is the directory name you want to create
 here you need to careful about where your command line is, cuz that's the location where clone to
 url can be found here need picture to show...
+
 
 
 
