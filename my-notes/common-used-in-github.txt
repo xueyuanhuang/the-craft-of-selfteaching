@@ -72,6 +72,11 @@ the right-hand column indicates the status of the working tree
 $ git add filename
 $ git commit -m 'Initial project version'
 
+
+delete the file:
+delete the file from your working directory
+$ git rm PROJECTS.md
+
 Cloning an Existing Repository:
 $ git clone https://github.com/libgit2/libgit2 mylibgit
 mylibgit is the directory name you want to create
